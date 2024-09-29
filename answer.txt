@@ -1,0 +1,3 @@
+- If the user selects "Cancel" in the dialog created by JOptionPane.showConfirmDialog(), the option variable will be set to JOptionPane.CANCEL_OPTION. This means that the message dialog will display "You've chosen: NO" since the code only checks for JOptionPane.YES_OPTION and defaults to "NO" for any other option, including "Cancel" and "No".
+
+- To customize the options presented to the user (for example, showing only "Yes" and "No" or using custom labels like "I do" and "I don’t"), we can use the JOptionPane.showOptionDialog() method.
